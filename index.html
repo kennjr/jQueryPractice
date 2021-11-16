@@ -13,11 +13,17 @@
         <h1>Peek-a-boo</h1>
         <p><strong>Peek-a-boo</strong> is an ancient game riddled in mystery and deceit. Though it appears to be an innocent childrens' pastime, you may change your mind when you learn of its treacherous history.</p>
 
-        <div class="walrus-hidden">
+        <p id="imgVisibilityStatus"><span class="show_images">Show images</span></p>
+        <button class="btn btn-success" id="green">Green</button>
+        <button class="btn btn-warning" id="yellow">Yellow</button>
+        <button class="btn btn-danger" id="red">Red</button>
+        <button class="btn btn-mode" id="mode">dark theme</button>
+        <button class="btn_second_file" id="second_file_btn"><a href="secondfile.html">Second file</a></button>
+        <div id="walrus-hidden">
             <p>Let's play peek-a-boo. <span class="clickable">Click here</span> to see the surprise!</p>
         </div>
 
-        <div class="walrus-showing">
+        <div id="walrus-showing">
             <!-- The span makes a sect of the p clickable, we give it the class 
                 so that we can acces it in the css file and style it a bit -->
             <p>What a cute walrus! <span class="clickable">Click here</span> to hide her again.</p>
